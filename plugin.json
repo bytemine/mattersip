@@ -1,0 +1,49 @@
+{
+	"id": "net.bytemine.sip",
+	"version":"0.0.4",
+	"name": "bytemine-sip",
+	"backend": {
+		"executable":"bytemine-sip"
+	},
+	"settings_schema": {
+		"settings": [
+			{
+				"key": "TeamName",
+				"display_name": "Team Name",
+				"type": "text",
+				"help_text": "Team where the channel exists"
+			},
+			{
+				"key": "ChannelName",
+				"display_name": "Channel Name",
+				"type": "text",
+				"help_text": "Channel to join"
+			},
+			{
+				"key": "UserMail",
+				"display_name": "User E-Mail",
+				"type": "text",
+				"help_text": "E-Mail address of user to post as."
+			},
+			{
+				"key": "Secret",
+				"display_name": "Dashboard Secret",
+				"type": "text",
+				"help_text": "Secret for dashboard access"
+			},
+			{
+				"key":"HideConnectionMessages",
+				"display_name": "Hide Connection Messages",
+				"type":"bool",
+				"help_text":"Hide connected and disconnected messages"
+			},
+			{
+				"key": "NumbersUsers",
+				"display_name": "Number-User Mappings",
+				"type": "text",
+				"help_text": "Mapping of numbers to users in the format <number>:<username>,...",
+				"placeholder": "1234:nobody"
+			}
+		]
+	}
+}
