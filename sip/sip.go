@@ -125,7 +125,7 @@ func (p phoneStatus) Icon() string {
 	case statusDndOff:
 		return "✔"
 	case statusOffhook:
-		return "🕻"
+		return "📞"
 	case statusOnhook:
 		return "✔"
 	case statusPausedOn:
@@ -137,9 +137,9 @@ func (p phoneStatus) Icon() string {
 	case statusLogout:
 		return "☎→"
 	case statusAgentLogin:
-		return "⛟←"
+		return "🆗←"
 	case statusAgentLogout:
-		return "⛟→"
+		return "🆗→"
 	case statusAnsweringCall:
 		return "⚡"
 	case statusUnknown:
