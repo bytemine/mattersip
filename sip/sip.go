@@ -21,15 +21,21 @@ const dashboardHTML = `<!doctype html>
   <meta http-equiv="refresh" content="5">
   <title>SIP dashboard</title>
 </head>
+<style>
+td {
+    padding: 7px;
+    text-align: center;
+}
+</style>
 <body>
 {{ template "userStati" . }}
 </body>
 </html>
 `
 
-const userStatiHTML = `<table>
-<tr>{{range $name, $status := .}}<td>{{$name}}</td>{{end}}</tr>
-<tr>{{range $name, $status := .}}<td>{{$status.HTML}}</td>{{end}}</tr>
+const userStatiHTML = `<table border="1" frame="void" rules="all">
+<tr>{{range $name, $status := .}}<td style="margin-left: 7px">{{$name}}</td>{{end}}</tr>
+<tr>{{range $name, $status := .}}<td style="margin-left: 7px">{{$status.HTML}}</td>{{end}}</tr>
 </table>
 `
 
