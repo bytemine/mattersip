@@ -80,5 +80,5 @@ The plugin enables two slash-commands:
 
 ## Plugin status
 
-Health of the plugin can be checked using the URL https://mattermost.example.com/plugins/net.bytemine.sip/status[?secret=<secret>]
+Health of the plugin can be checked using the URL `https://mattermost.example.com/plugins/net.bytemine.sip/status[?secret=<secret>]`
 
