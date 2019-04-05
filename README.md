@@ -18,7 +18,7 @@ These requests have the following structure:
 
 #### Phone status
 
-    https://mattermost.example.com/plugins/net.bytemine.sip/sip/<action>/<user>
+    https://mattermost.example.com/plugins/net.bytemine.sip/sip/<action>/<user>[?secret=<secret>]
 
 where `action` can be one of
 
@@ -38,13 +38,13 @@ and `user` being the user name.
 
 ##### Example
 
-    https://mattermost.example.com/plugins/net.bytemine.sip/sip/dnd-on/bob
+    https://mattermost.example.com/plugins/net.bytemine.sip/sip/dnd-on/bob[?secret=<secret>]
 
 Would signal that user bob went DND.
 
 #### Call status
 
-    https://mattermost.example.com/plugins/net.bytemine.sip/sip/<action>/<user>/<number>
+    https://mattermost.example.com/plugins/net.bytemine.sip/sip/<action>/<user>/<number>[?secret=<secret>]
 
 where `action` can be one of
 
@@ -56,7 +56,7 @@ where `action` can be one of
 
 ##### Example
 
-    https://mattermost.example.com/plugins/net.bytemine.sip/sip/incoming-call/bob/1234567
+    https://mattermost.example.com/plugins/net.bytemine.sip/sip/incoming-call/bob/1234567[?secret=<secret>]
 
 Would signal that user bob has an incoming call from 1234567.
 
@@ -80,5 +80,5 @@ The plugin enables two slash-commands:
 
 ## Plugin status
 
-Health of the plugin can be checked using the URL https://mattermost.example.com/plugins/net.bytemine.sip/status
+Health of the plugin can be checked using the URL https://mattermost.example.com/plugins/net.bytemine.sip/status[?secret=<secret>]
 
