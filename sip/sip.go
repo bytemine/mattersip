@@ -312,6 +312,11 @@ func (s *Sip) executeStatusCommand(args *model.CommandArgs) (*model.CommandRespo
 }
 
 func (s *Sip) ServeHTTP(c *plugin.Context, w http.ResponseWriter, r *http.Request) {
+	if r.URL.Query().Get("secret") != s.Secret {
+		http.Error(w, http.StatusText(http.StatusUnauthorized), http.StatusUnauthorized)
+		return
+	}
+
 	s.mux.ServeHTTP(w, r)
 }
 
@@ -406,11 +411,6 @@ func (s *Sip) handleStatus(w http.ResponseWriter, r *http.Request) {
 }
 
 func (s *Sip) handleDashboard(w http.ResponseWriter, r *http.Request) {
-	if r.URL.Query().Get("secret") != s.Secret {
-		http.Error(w, http.StatusText(http.StatusUnauthorized), http.StatusUnauthorized)
-		return
-	}
-
 	w.WriteHeader(http.StatusOK)
 	dashboardHTMLTemp.Execute(w, s.status)
 }

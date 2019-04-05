@@ -1,6 +1,6 @@
 {
 	"id": "net.bytemine.sip",
-	"version":"1.0.0",
+	"version":"1.0.1",
 	"name": "bytemine-sip",
 	"backend": {
 		"executable":"bytemine-sip"
