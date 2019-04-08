@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/bytemine/mattermost-plugin-sip/sip"
+	"github.com/bytemine/mattersip/sip"
 	"github.com/mattermost/mattermost-server/plugin"
 )
 

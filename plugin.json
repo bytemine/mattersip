@@ -1,9 +1,9 @@
 {
 	"id": "net.bytemine.sip",
 	"version":"1.0.1",
-	"name": "bytemine-sip",
+	"name": "mattersip",
 	"backend": {
-		"executable":"bytemine-sip"
+		"executable":"mattersip"
 	},
 	"settings_schema": {
 		"settings": [

@@ -1,13 +1,14 @@
-# mattermost-plugin-sip
+# mattersip
 
 Mattermost plugin for integration of our SIP PBX.
 
 ## Compiling
 
 - install go: https://golang.org/doc/install
-- clone this repository.
-- `cd` to the repository and run `make` which builds the plugin binary.
-  Afterwards it creates a tarball in `dist` which can be uploaded via the Mattermost ui.
+- because this uses go modules, clone this repository to somewhere **not** in $GOPATH.
+  See the respective [go command documentation](https://golang.org/cmd/go/#hdr-Modules__module_versions__and_more) for details.
+- cd to the repository and run `make` which builds the plugin binary.
+  afterwards it creates a tarball in `dist` which can be uploaded via the mattermost ui.
 
 ## Usage
 

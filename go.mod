@@ -1,4 +1,4 @@
-module github.com/bytemine/mattermost-plugin-sip
+module github.com/bytemine/mattersip
 
 require (
 	github.com/BurntSushi/toml v0.3.1 // indirect

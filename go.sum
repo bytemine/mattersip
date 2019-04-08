@@ -27,12 +27,8 @@ github.com/hashicorp/yamux v0.0.0-20180604194846-3520598351bb h1:b5rjCoWHc7eqmAS
 github.com/hashicorp/yamux v0.0.0-20180604194846-3520598351bb/go.mod h1:+NfK9FKeTrX5uv1uIXGdwYDTeHna2qgaIlx54MXqjAM=
 github.com/magiconair/properties v1.8.0 h1:LLgXmsheXeRoUOBOjtwPQCWIYqM/LU1ayDtDePerRcY=
 github.com/magiconair/properties v1.8.0/go.mod h1:PppfXfuXeibc/6YijjN8zIbojt8czPbwD3XqdrwzmxQ=
-github.com/mattermost/mattermost-server v5.7.0+incompatible h1:gLWrHa43ZIJdnjLFeeLtVdyRAjBlWlUvWnu2ZAoROPo=
-github.com/mattermost/mattermost-server v5.7.0+incompatible/go.mod h1:5L6MjAec+XXQwMIt791Ganu45GKsSiM+I0tLR9wUj8Y=
 github.com/mattermost/mattermost-server v5.8.0+incompatible h1:nQTgXd5e+GV8vwpnFJ6QhuaK1ZtlfcJnvlBxeLRwXCg=
 github.com/mattermost/mattermost-server v5.8.0+incompatible/go.mod h1:5L6MjAec+XXQwMIt791Ganu45GKsSiM+I0tLR9wUj8Y=
-github.com/mattermost/viper v1.0.2 h1:7U6OQETbrgHcAeomwrXCR0znOdzy+2/CxqoN9AgzgBo=
-github.com/mattermost/viper v1.0.2/go.mod h1:0ieCpAcU0GusAcp+c91mzA+vKgDRkpa1Xep/HQuXDGA=
 github.com/mattermost/viper v1.0.3-0.20180405151925-4f5003aa9355 h1:f3UhPaJY4jL9PXCq4SIGwYBHwBe/woZHQQ2nN8MQS0A=
 github.com/mattermost/viper v1.0.3-0.20180405151925-4f5003aa9355/go.mod h1:0ieCpAcU0GusAcp+c91mzA+vKgDRkpa1Xep/HQuXDGA=
 github.com/mitchellh/go-testing-interface v0.0.0-20171004221916-a61a99592b77 h1:7GoSOOW2jpsfkntVKaS2rAr1TJqfcxotyaUcuxoZSzg=
