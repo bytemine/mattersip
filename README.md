@@ -1,3 +1,5 @@
+# This plugin is no longer maintained and might or might not work with current and/or future versions of Mattermost
+
 # mattersip
 
 Mattermost plugin for integration of our SIP PBX.
